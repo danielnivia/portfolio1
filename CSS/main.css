@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;600&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Kanit, light, sans-serif;
+}
+
+.header {
+    background-color: #62ACF1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem; 
+    color: #fc0;
+}
+
+.intro {
+    background-color: #4A5899;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5rem; 
+    color: #fc0;
+    font-size: 35pt;
+}
+
+.aboutTitle{
+    padding-left: 5em; 
+    /* height: 20px; */
+    background-color: #ede9dc;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    /* background-size: contain; */
+    /* background-position: center center; */
+    
+    
+    /* gap: 1rem;  */
+    color: #0a8;
+}
+
+
+.about {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+    background-color: #ede9dc;
+    background-size: cover;
+    background-position: center center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.about img {
+    height: 200px;
+    width: 200px;
+}
+
+.about-text {
+    color: #f13378;
+    font-size: 18pt;
+    text-align: justify;
+}
+
+.projects {
+    padding: 5em;
+    color: #f13378;
+}
+
+
+.filter ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.filter ul li {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 10px;
+
+    color: white;
+    padding: 5px 10px;
+    background-color: #62ACF1;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color .2s ease-in-out;
+}
+
+.filter ul li:hover {
+    background-color: #1787ef;
+}
+
+.gallery {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.projects{
+    background: #4A5899;
+}
+
+.gallery{
+    background: #4A5899;
+}
+.gallery img {
+    width: 250px;
+    height: 250px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #62ACF1;
+    color: white;
+}
+
+@media (max-width: 700px) {
+    .about {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
