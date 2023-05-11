@@ -1,2 +1,2 @@
-# portfolio1
+# Portfolio
 Communications Lab Portfolio
