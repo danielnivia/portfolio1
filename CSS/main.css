@@ -133,3 +133,10 @@ footer {
     }
 }
 
+@media (max-width: 1000px) {
+    .intro  {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
